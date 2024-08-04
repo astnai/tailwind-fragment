@@ -14,14 +14,14 @@ Style fragmentation involves breaking down long strings of Tailwind classes into
 
 3. **Reusability**: Style constants can be easily reused across different elements or even different components.
 
-4. **Cleaner JSX**: The actual JSX becomes cleaner and more focused on structure rather than style details.
+4. **Cleaner TSX**: The actual TSX becomes cleaner and more focused on structure rather than style details.
 
 ## Example
 
 ```javascript
 const buttonStyle = "bg-black hover:bg-neutral-400 text-white font-light py-3 px-6 rounded-full transition-all duration-300 ease-in-out";
 
-// Usage in JSX
+// Usage in TSX
 <button className={buttonStyle}>Click Me</button>
 ```
 
